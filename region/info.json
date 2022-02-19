@@ -1,0 +1,8 @@
+{
+    "author" : ["aikaterna"],
+    "short" : "Change the Discord server's region.",
+    "description" : "Change the Discord server's region with a command.",
+    "install_msg" : "This cog is not needed any more because voice servers are determined upon joining the channel, instead of server-based voice regions. Thanks for installing.",
+    "tags" : ["voice region", "region"],
+    "end_user_data_statement": "This cog does not persistently store data or metadata about users."
+}
