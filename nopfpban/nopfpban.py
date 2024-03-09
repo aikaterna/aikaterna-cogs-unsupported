@@ -26,7 +26,7 @@ class NoPfpBan(commands.Cog):
             try:
                 await member.ban(reason=autoban_reason)
             except discord.Forbidden:
-                log.info("NoPfpBan cog does not have permissions to van in guild {member.guild.id}")
+                log.info("NoPfpBan cog does not have permissions to ban in guild {member.guild.id}")
 
     @commands.group()
     async def autoban(self, ctx):
